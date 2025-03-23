@@ -15,7 +15,7 @@ feature_names = ['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness',
 
 # Streamlit app
 st.title("Diabetes Prediction App")
-st.write("Enter the following details to predict if a person has diabetes.")
+st.write("Enter the following details to predict if a person has diabetes or not.")
 
 # Create input fields for the raw features (user inputs these)
 pregnancies = st.number_input("Pregnancies", min_value=0, max_value=20)
